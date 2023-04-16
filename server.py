@@ -210,7 +210,7 @@ for event in longpoll.listen():
 
                 go_back = True
 
-            if text == 'st852' or go_back:
+            if go_back:
                 keyboard = VkKeyboard(one_time=True)
                 keyboard.add_button('Товары', VkKeyboardColor.PRIMARY)
                 keyboard.add_line()
