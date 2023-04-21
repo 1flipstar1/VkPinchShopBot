@@ -43,7 +43,7 @@ for event in longpoll.listen():
                 sendmessage(event, 'Здравствуйте, это бот магазина "Pichshop"!')
                 go_back = True
 
-            if text == 'Контакты':
+            elif text == 'Контакты':
                 sendmessage(event, '''Наши контакты:
 
                 7 499 325-44-02
@@ -59,10 +59,10 @@ for event in longpoll.listen():
 ''')
                 go_back = True
 
-            if text == 'Назад':
+            elif text == 'Назад':
                 go_back = True
 
-            if text == 'Товары':
+            elif text == 'Товары':
                 sendmessage(event, 'Все товары наши товары, имеющиеся в наличии:')
                 res = cursor.execute('''SELECT * FROM goods''').fetchall()
                 txt = ''
@@ -209,6 +209,8 @@ for event in longpoll.listen():
                     sendmessage(event, txt)
 
                 go_back = True
+
+
 
             if go_back:
                 keyboard = VkKeyboard(one_time=True)
