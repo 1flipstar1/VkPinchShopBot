@@ -3,7 +3,6 @@
   <img src="https://media.giphy.com/media/H9M7lvORlmeFmvGoqY/giphy.gif" width="30px"/>
 </h1>
 
-`Это встроенный код
-````
-Это блок кода
-```
+
+````p
+
