@@ -4,7 +4,7 @@ from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 import random
 import sqlite3
 
-TOKEN = 'vk1.a.GnfYE9d75Wfgtj7M8y45dFhst93O0DvX6i-dmE45z3eWXSyW-T8pR67KFlLYdGX8ZPWvDfv5ipUFa9CRBgq-ptJdd8bmkzaniJhqV6wJqiCwj6ZjVuFp9FMs-Wg1sw3vxjAE-2UmXDOwNva8UusYIfPloa9fRmn6tetw19igE0etIaajZR7dcceBzl2bGytKFi1V3dJjozpTox1fqozx9Q'
+TOKEN = 'YOUR API TOKEN'
 
 conn = sqlite3.connect('shop.sqlite')
 cursor = conn.cursor()
