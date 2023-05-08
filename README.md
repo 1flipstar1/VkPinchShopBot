@@ -5,7 +5,5 @@
 
 
 ````
-rel lre
-
-ewr
-
+print
+````
